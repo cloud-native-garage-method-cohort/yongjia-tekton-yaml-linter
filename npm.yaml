@@ -27,7 +27,9 @@ spec:
       description: The npm goals you want to run.
     - name: IMAGE
       type: string
-      default: "docker.io/library/node:12-alpine@sha256:12048cdfd75d944df35f3144132d9bdeee78015fbd6df765edad1be46599b110"
+      default: >-
+        "docker.io/library/node:12-alpine@sha256:12048cdfd75d944df35f314413
+        2d9bdeee78015fbd6df765edad1be46599b110"
       description: The node image you want to use.
   steps:
     - name: npm-run
